@@ -1,8 +1,8 @@
 # Data Analyst Toolkit
 
-**From raw data to board-ready insights, every step covered.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For data analysts: turn raw data into board-ready findings, from query to the so-what.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
 
-The complete data analysis workflow: SQL to insights, pandas, A/B tests, funnel analysis, customer analytics, and data storytelling.
+Reach for this when you have data and need a defensible answer leadership will act on. Pull insights out of SQL and pandas, run the analysis (A/B tests, funnels, cohorts/LTV/churn), then package it as a clear narrative with the headline finding and the so-what — the full path from query to board-ready story.
 
 ⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
