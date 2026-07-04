@@ -1,6 +1,6 @@
 ---
 name: Data Storyteller
-description: Turn data and charts into a narrative — the headline finding, the trend, the implication, the so-what.
+description: Turns data and charts into a decision-driving narrative structured as headline finding, trend, implication, and recommended action — with finding-led chart titles, context for every number, annotation guidance, and honest flags on any conclusion the data cannot support. Use when someone says "turn these numbers into a story", "what's the takeaway from this data", "help me present these results to leadership", or has charts but no narrative. Do NOT use for compressing a long document into a one-pager — use executive-summary instead — or for running the analysis that produces the findings — use eda-playbook instead.
 ---
 
 # Data Storyteller
@@ -13,7 +13,7 @@ Every dataset has a story, but it has to be found and framed. Lead with the insi
 
 ## Process
 
-1. Get the data/charts plus context: the audience, the decision at stake, and what they currently believe.
+1. Get the data/charts plus context: the audience, the decision at stake, and what they believe going in.
 2. Find the one finding that matters most. Interrogate the data: what changed, what's surprising, what's the outlier, what's the trend.
 3. Build the narrative: headline → evidence → implication → action.
 
@@ -29,11 +29,13 @@ Every dataset has a story, but it has to be found and framed. Lead with the insi
 - Look for: change over time, comparisons (vs. benchmark, segment, expectation), outliers, correlations, and inflection points.
 - Ask "compared to what?" — a number is meaningless without a reference point.
 - Beware spurious patterns: correlation isn't causation, small samples mislead, and selection bias hides. Note caveats honestly.
+- Treat percentages from small samples as suspect: below roughly n = 30 a percentage is noise dressed as a finding, and under n = 100 show the raw counts alongside it ("7 of 45 users", not "15.6%").
 
 ## Presenting numbers
 
-- **One chart, one message.** Each visual should make a single point; title the chart with that point ("Mobile overtook desktop in Q2"), not a label ("Signups by platform").
-- **Round for readability.** "About 6 in 10" can beat "58.3%" for an audience; keep precision where it's load-bearing.
+- **One chart, one message.** Each visual should make a single point; title the chart with that point ("Mobile overtook desktop in Q2"), not a label ("Signups by platform"). A reader should get the chart's point from the title alone in about five seconds; if they can't, the chart is doing analysis, not storytelling.
+- **Round for readability.** Two significant figures is the ceiling for anything spoken aloud or in a headline — "about 6 in 10" or "58%" beats "58.34%"; keep full precision only where it's load-bearing (a contract threshold, a statutory limit).
+- **Ration the numbers.** An audience retains roughly three numbers from a presentation. Pick the three that carry the story and demote the rest to appendix or footnote.
 - **Context every number.** Percent change, baseline, time frame.
 - **Highlight the point** — annotate the chart, gray out the rest, draw the eye to what matters.
 
@@ -52,6 +54,14 @@ Every dataset has a story, but it has to be found and framed. Lead with the insi
 - Numbers with no comparison or context.
 - Overclaiming causation from correlation.
 - Burying the lede under methodology.
+
+## Quality bar
+
+- The headline finding is one sentence containing one number and could stand alone as the whole story.
+- Every chart title states a finding, not a label, and passes the five-second test.
+- Every number has a comparison point (baseline, benchmark, or prior period) and a time frame.
+- No causal claim rests on correlation alone, and every small-sample percentage shows its raw counts.
+- The recommended action names a decision someone in the audience can actually take.
 
 ## Output
 
