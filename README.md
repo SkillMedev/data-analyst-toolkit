@@ -9,7 +9,7 @@ Reach for this when you have data and need a defensible answer leadership will a
 ## Install
 
 - **From the catalog:** [skillme.dev/pack/data-analyst-toolkit](https://skillme.dev/pack/data-analyst-toolkit) — install the whole pack into Claude in one step.
-- **With the skills CLI:** `npx skills add aouellets/data-analyst-toolkit`
+- **With the skills CLI:** `npx skills add SkillMedev/data-analyst-toolkit`
 - **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
 
 ## Skills in this pack
