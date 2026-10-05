@@ -1,16 +1,17 @@
 # Data Analyst Toolkit
 
-**For data analysts: turn raw data into board-ready findings, from query to the so-what.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For data analysts: turn raw data into board-ready findings, from query to the so-what.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-data-analyst-toolkit).
 
 Reach for this when you have data and need a defensible answer leadership will act on. Pull insights out of SQL and pandas, run the analysis (A/B tests, funnels, cohorts/LTV/churn), then package it as a clear narrative with the headline finding and the so-what - the full path from query to board-ready story.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/data-analyst-toolkit](https://skillme.dev/pack/data-analyst-toolkit) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/data-analyst-toolkit?utm_source=github&utm_medium=readme&utm_campaign=pack-data-analyst-toolkit) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add sql-to-insights pandas-expert ab-test-analyzer funnel-analysis customer-analytics data-story revenue-modeling --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/data-analyst-toolkit`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -25,4 +26,4 @@ Reach for this when you have data and need a defensible answer leadership will a
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-data-analyst-toolkit).
